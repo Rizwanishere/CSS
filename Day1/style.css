@@ -1,0 +1,40 @@
+h1{
+    background:red;
+    }
+
+body{
+    background:peachpuff;
+}
+
+aside{
+    color:blue;
+    background: greenyellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    background: blueviolet;
+}
+
+#uniqueID{
+    background: coral;
+    font-size: 30px;
+}
+
+p{
+   background: rgb(0, 149, 255);
+   display: block;   /*by default its block */
+}
+
+pre{
+    background: rgb(0, 179, 255);
+    display: inline;
+}
+
+.fontChange{
+    background: greenyellow;
+    font-size: 16px;
+    font-weight: normal;
+}
