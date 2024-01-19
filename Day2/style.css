@@ -1,0 +1,34 @@
+.layout div{
+    background: red;
+    /* width: 200px; */  /*width is ignored here*/
+    height: 200px;
+    border: 2px solid black;
+    margin:10px;
+    flex-basis: 300px;
+    /* if flex-direction: row; then width here is ignored */
+    /* if flex-direction: column; then flex-basis becomes actual width */
+}
+
+.layout{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .layout{
+    display: flex;
+    flex-direction: column;
+} */
+
+.first{
+    flex-shrink:1;
+}
+
+.second{
+    flex-shrink:2;
+}
+
+.layout{   /*flex-wrap: adjusts elements acc to avoid overflow to right side*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

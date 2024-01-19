@@ -1,0 +1,26 @@
+*{
+    margin:0;
+}
+
+#parent{
+    display: flex;
+    background: red;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#child{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+  }
+
+/* #child{        two div at center
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+} */
