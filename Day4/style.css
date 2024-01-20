@@ -1,0 +1,24 @@
+body{
+    min-height: 200vh;
+}
+
+section{
+    position: relative;
+}
+
+section span{
+    background: red;
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: absolute; /*takes out container out of co-ordinate system and puts it to nearest relative parent*/
+    /* position: fixed; This position makes container fixed at top even if we scroll */
+    top: 0;
+    right: 0;
+}
+
+.yolo{
+    position: sticky;
+    top:0;
+    font-weight: bold;
+}
